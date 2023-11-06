@@ -1,0 +1,165 @@
+* {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0%;
+  background-image: url(/assets/img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 140%;
+  background-position: center;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-family: "Kalam", cursive;
+}
+.oculto {
+  display: none !important;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+.container {
+  width: 400px;
+  height: 380px;
+  background: rgb(245, 246, 247);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 0px;
+  box-shadow: 4px 4px 8px 8px #00328c;
+}
+img.logo {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  margin-left: 70%;
+  position: relative;
+}
+
+form {
+  margin-top: 20px;
+  background-image: none;
+}
+h input {
+  width: 80%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #0d8cf0;
+  border-radius: 5px;
+  justify-content: center;
+}
+.input-correcto {
+  background-color: lightgreen;
+}
+
+.button {
+  background-color: #50837e;
+  color: #15e2da;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #02a0a0;
+  color: #000147;
+}
+
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+}
+
+.controls {
+  width: 80%;
+  border: 1px solid #017bab;
+  margin-bottom: 5px;
+  padding: 11px 10px;
+  background: #000147;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.buttons {
+  width: 80%;
+  height: 40px;
+  border-radius: 40px;
+  background: radial-gradient(
+    circle,
+    rgba(0, 50, 140, 1) 61%,
+    rgba(0, 216, 207, 1) 100%
+  );
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  margin-top: 15px;
+}
+
+.buttons:hover {
+  background: #fe6e00;
+  border: 1px solid white;
+}
+
+.form-login p {
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+div.presupuesto {
+  display: flex;
+  justify-content: center;
+}
+.error {
+  color: #f85902;
+}
+p#usuarioError {
+  font-size: 10px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+p#contrasenaError {
+  font-size: 10px;
+  padding: 0px;
+  margin-bottom: -5px;
+}
+p#forgetPassword {
+  font-size: 15px;
+}
+
+/**
+ * @CAJAS DE GASTOS
+ */
+div.presupuesto {
+  display: flex;
+}

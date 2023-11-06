@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/style/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="login" id="login">
+        <img class="logo" src="/assets/img/logo flashouse.png" alt="logo">
+        <div class="container">
+            <h2>fotografia arquitectonica</h2>
+
+            <h4>inicio de sesion</h4>
+            <form id="formLogin">
+                <input class="controls" type="text" placeholder="user" id="user" name="user" required>
+                <p id="userError" class="oculto error">ingresar solo caracteres alfabeticos</p>
+                <input class="controls" type="password" placeholder="password" id="password" name="password"
+                    required>
+                <p id="passwordError" class="oculto error">ingresar caracteres alfabeticos, numeriocos,mas de 5</p>
+                <br>
+                <button disabled class="buttons" id="buttonlogIn" type="button">ingresar</button>
+                <p class="error oculto" id="error">error de ingreso</p>
+                <p id="forgetPassword"><a href="#">¿Olvidastes tu Contraseña?</a></p>
+            </form>
+        </div>
+    </section>
+
+    <section class="expends oculto" id="expends">
+        <main id="panel" class="panel">
+            <h1>controlador de gastos</h1>
+            <img src="#" alt="">
+        </main>
+        <div class="presupuesto">
+            <p class="value" id="valor">5.000.000</p>
+        </div>
+        <div class="cajasGasto">
+            <div class="cajas" id="negocios">
+                <p>negocios</p>
+            </div>
+            <div class="cajas" id="diversion">
+                <p>diversion</p>
+            </div>
+            <div class="cajas" id="transporte">
+                <p>transporte</p>
+            </div>
+            <div class="cajas" id="alimentacion">
+                <p>alimentacion</p>
+            </div>
+        </div>
+        </article>
+
+    </section>
+        <script type="module" src="/assets/script/script.js"></script>
+        <script type="module" src="/controller/Controllerpassword.js"></script>
+        <script src="/assets/js/jquery.min.js"></script>
+</body>
+
+</html>
